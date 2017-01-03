@@ -50,6 +50,8 @@
 //#define	_BELLATRA_OLD_VERSION
 //#define	_BELLATRA_OLD_VERSION_NOMOEY
 
+
+
 #ifdef _W_SERVER
 #include "ServerMsg.h"			//각종 국가별 메세지
 #else
