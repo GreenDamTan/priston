@@ -776,7 +776,8 @@ int HoOpening::Draw()
 			int v1 = Client_Version/1000;
 			int v2 = (Client_Version/10)%100;
 			int v3 = Client_Version%10;
-			wsprintf(buffer, "%s%d.%d.%d", "Ver: ",v1,v2,v3 );
+			//wsprintf(buffer, "%s%d.%d.%d", "Ver: ",v1,v2,v3 );
+			wsprintf(buffer, "Ver: Beta");
 		}
 		dsTextLineOut(opHdc, renderDevice.GetScreenWidth() - 80, renderDevice.GetScreenHeight() - 75, buffer, strlen(buffer));
 		
